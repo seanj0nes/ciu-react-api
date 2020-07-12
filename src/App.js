@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Contacts from "./components/contacts";
-import logo from './logo.svg';
 import './App.css';
 
 
