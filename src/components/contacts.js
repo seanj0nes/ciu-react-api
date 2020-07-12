@@ -8,7 +8,7 @@ const Contacts = ({ contacts }) => {
                 {contacts.map((contact) => (
                     <div class="col-sm-4">
                         <div class="card border-secondary mb-3" >
-                            <img class="card-img-top " src={"https://www.gravatar.com/avatar/94d093eda664addd6e450d7e9881bcad?s=32&amp;d=" + contact.email + "&amp;r=PG"}></img>
+                            <img class="card-img-top " src={"https://www.gravatar.com/avatar/94d093eda664addd6e450d7e9881bcad?s=32&amp;d=" + contact.email + "&amp;r=PG"} alt="Contact Detail"></img>
                             <div class="card-body">
                                 <h5 class="card-title">{contact.name}</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">{contact.email}</h6>
